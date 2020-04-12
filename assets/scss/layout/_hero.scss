@@ -1,0 +1,73 @@
+@media only screen and (min-width: 1200px) {
+  .hero {
+      &__container {
+        height: auto;
+        width: 100%;
+        }
+      &__image {
+        width: 100%;
+        position: relative;
+
+      }
+      &__title {
+        font-family: $raleway;
+        font-weight: $bold;
+        font-size: $xxxxx-large;
+      }
+      &__description {
+        font-family: $raleway;
+        font-weight: $regular;
+        font-size: $medium;
+      }
+      &__containertext {
+        height: 400px;
+        width: 400px;
+        position: relative;
+        display: inline-block;
+        margin-top: 80px;
+        margin-left: 136px;
+        position: absolute;
+        z-index: 1;
+      }
+      &__description {
+      }
+    }
+
+}
+
+@media only screen and (max-width: 361px) {
+  .hero {
+      &__container {
+        height: auto;
+        width: 100%;
+        }
+      &__image {
+        top: 200px;
+        width: 100%;
+        position: relative;
+
+      }
+      &__title {
+        font-family: $raleway;
+        font-weight: $bold;
+        font-size: $xxx-large;
+      }
+      &__description {
+        font-family: $raleway;
+        font-weight: $medium;
+        font-size: $medium;
+      }
+      &__containertext {
+        padding: 5px 15px;
+        height: 400px;
+        width: 310px;
+        position: relative;
+        display: inline-block;
+        position: absolute;
+        z-index: 1;
+      }
+      &__description {
+      }
+    }
+
+}

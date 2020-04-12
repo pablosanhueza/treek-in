@@ -1,0 +1,65 @@
+@media only screen and (min-width: 1200px) {
+  .footer {
+    margin-top: 0px;
+    font-family: $raleway;
+    font-size: $x-small;
+    font-weight: $regular;
+    color: $white;
+    height: 137px;
+    width: 100%;
+    background-color: $raising-black;
+    display: flex;
+    justify-content: center;
+
+
+
+    &__container {
+      height: 137px;
+      width: 1200px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+    }
+
+    &__item-start {
+      width: 200px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+
+    &__text {
+    }
+    &__item-end {
+      width: 900px;
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+
+}
+
+@media only screen and (max-width: 361px) {
+  .footer {
+    &__container{
+      display: flex;
+      flex-direction: row;
+      position: relative;
+      background-color: black;
+      height: 116px;
+      margin-top: 63px;
+      color: $white;
+      justify-content: center;
+
+    &__item-start{
+      display: flex;
+
+      width: 100px;
+
+    }
+
+    }
+
+  }
+}

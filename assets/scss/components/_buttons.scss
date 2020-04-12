@@ -1,0 +1,33 @@
+.nav-buttons {
+  //width: 270px;
+  margin-left: 480px;
+
+  &__button {
+  width: 113px;
+  height: 35px;
+  background-color: $ball-blue;
+  border: 1px solid $ball-blue;
+  color:$white;
+  &:hover{
+    background-color: $blue-lagoon;
+    border: 1px solid $blue-lagoon;
+  }
+  &:focus{
+      background-color: $silver-chalice;
+  }
+  }
+}
+
+.price__buttons {
+  width: 100%;
+  background-color: $ball-blue;
+  border: 1px solid $ball-blue;
+  color:$white;
+  &:hover{
+    background-color: $blue-lagoon;
+    border: 1px solid $blue-lagoon;
+  }
+  &:focus{
+      background-color: $silver-chalice;
+  }
+}

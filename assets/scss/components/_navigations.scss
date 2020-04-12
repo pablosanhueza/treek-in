@@ -1,0 +1,24 @@
+@media only screen and (min-width: 1200px){
+  .navigation {
+  width: 1440px;
+  height: 140px;
+  &__logo {
+    margin-left: 136px;
+  }
+  &__logosize {
+    height: 40px;
+    width: 48px;
+  }
+  &__item {
+    font-family: $raleway;
+    font-size: $bold;
+    color: $raising-black;
+  }
+  &__list {
+    margin-left: 34px;
+  }
+  &__form {
+    padding-right: 135px;
+  }
+}
+}
